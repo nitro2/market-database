@@ -27,7 +27,7 @@ def fetch_and_store_data():
 
     # Fetch data from Yahoo Finance
     ticker = yf.Ticker("DX-Y.NYB")
-    data = ticker.history(interval="1m", period="1h")
+    data = ticker.history(interval="1m", period="1d")
 
     for timestamp, row in data.iterrows():
         timestamp_str = timestamp.strftime("%Y-%m-%d %H:%M:%S")

@@ -1,4 +1,4 @@
 tickers:
-  - DX-Y.NYB
-  - BTC-USD
-  - EURUSD=X
+  - USD_Index: DX-Y.NYB
+  - BTC_USD: BTC-USD
+  - EURUSD: EURUSD=X
